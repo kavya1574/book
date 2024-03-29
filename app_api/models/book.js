@@ -13,3 +13,4 @@ const bookSchema = new mongoose.Schema({
     
 });
 require('./book');
+mongoose.model('book', bookSchema);
